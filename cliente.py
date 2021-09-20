@@ -2,7 +2,7 @@ import socket
 # Protocolos
 socket_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Puertos
-socket_client.connect(("2.tcp.ngrok.io",15251))
+socket_client.connect(("4.tcp.ngrok.io",17795))
 
 #Variables no mutables Importantes para todo el PPP
 flag = "01111110"
